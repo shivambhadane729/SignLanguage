@@ -1,0 +1,26 @@
+Required Arduino Libraries for SignSpeak Glove:
+
+1. MPU6050 Library
+   - Install via Arduino Library Manager
+   - Search for "MPU6050" by Electronic Cats
+   - Or install from: https://github.com/ElectronicCats/mpu6050
+
+2. ESP32 Board Support
+   - In Arduino IDE: File > Preferences
+   - Add to Additional Board Manager URLs:
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   - Tools > Board > Boards Manager
+   - Search for "ESP32" and install "esp32 by Espressif Systems"
+
+3. BluetoothSerial (Built-in with ESP32, no installation needed)
+
+Installation Steps:
+1. Open Arduino IDE
+2. Go to Tools > Board > Boards Manager
+3. Install ESP32 board support
+4. Go to Sketch > Include Library > Manage Libraries
+5. Search and install "MPU6050"
+6. Select Board: Tools > Board > ESP32 Dev Module
+7. Select Port: Tools > Port > (your ESP32 port)
+8. Upload the firmware
+
