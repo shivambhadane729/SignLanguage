@@ -1,7 +1,7 @@
 from google import genai
 
 # Initialize client (API key already tested as valid)
-client = genai.Client(api_key="AIzaSyCONb4jZcVo_48KT0MEkcHONDeY1iN87WU")
+client = genai.Client(api_key="")
 
 gesture_words = "HELLO THANK YOU"
 
